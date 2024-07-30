@@ -139,247 +139,124 @@
     <!-- ========================
        page title 
     =========================== -->
-    <section class="page-title page-title-layout5 bg-overlay">
-      <div class="bg-img"><img src="assets/images/page-titles/8.jpg" alt="background"></div>
+    <section class="page-title page-title-layout4 bg-overlay text-center">
+      <div class="bg-img"><img src="assets/images/page-titles/5.jpg" alt="background"></div>
       <div class="container">
         <div class="row">
-          <div class="col-12">
-            <h1 class="pagetitle__heading">Actualités</h1>
-            <nav>
-              <ol class="breadcrumb mb-0">
-                <li class="breadcrumb-item"><a href="index.html">Accueil</a></li>
-                <li class="breadcrumb-item active" aria-current="page">Blog</li>
-              </ol>
-            </nav>
-          </div><!-- /.col-12 -->
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-6 offset-xl-3">
+            <h1 class="pagetitle__heading">Prenez rendez-vous avec nos experts.</h1>
+          </div><!-- /.col-xl-6 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
     </section><!-- /.page-title -->
 
-    <!-- ======================
-      Blog Grid
-    ========================= -->
-    <section class="blog-grid">
+    <!-- ========================= 
+      Testimonials layout 3
+      =========================  -->
+    <section class="testimonials-layout3 pt-130 bg-overlay bg-overlay-secondary">
+      <div class="bg-img"><img src="assets/images/banners/4.jpg" alt="background"></div>
+      <div class="container">
+        <div class="testimonials-wrapper">
+          <div class="row">
+            <div class="col-sm-12 col-md-12 col-lg-5">
+              <div class="heading-layout2">
+              </div><!-- /.heading -->
+            </div><!-- /.col-lg-5 -->
+          </div><!-- /.row -->
+        </div><!-- /.testimonials-wrapper -->
+      </div><!-- /.container -->
+    </section><!-- /.testimonials layout 3 -->
+
+    <!-- ==========================
+        contact layout 2
+    =========================== -->
+    <section class="contact-layout2 pt-0">
       <div class="container">
         <div class="row">
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" />
-                </a>
-              </div>
-              <!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat bg-transparent">
+          <div class="col-12">
+            <div class="contact-panel d-flex flex-wrap">
+              <form class="contact-panel__form" method="post" action="assets/php/contact.php" id="contactForm">
+                <div class="row">
+                  <div class="col-sm-12">
+                    <h4 class="contact-panel__title">Réserver un créneau</h4>
+                  </div>
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                      <i class="icon-news form-group-icon"></i>
+                      <input type="text" class="form-control" placeholder="Nom & Prénom" id="contact-name"
+                        name="contact-name" required />
+                    </div>
+                  </div>
+                  <!-- /.col-lg-6 -->
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                      <i class="icon-email form-group-icon"></i>
+                      <input type="email" class="form-control" placeholder="Email" id="contact-email"
+                        name="contact-email" />
+                    </div>
+                  </div>
+                  <!-- /.col-lg-6 -->
+                  <div class="col-sm-12 col-md-12 col-lg-12">
+                    <div class="form-group">
+                      <i class="icon-phone form-group-icon"></i>
+                      <input type="text" class="form-control" placeholder="Téléphone" id="contact-Phone"
+                        name="contact-phone" required />
+                    </div>
+                  </div>
+                  <!-- /.col-lg-4 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group form-group-date">
+                      <i class="icon-calendar form-group-icon"></i>
+                      <input type="date" class="form-control" id="contact-date" name="contact-date" required />
+                    </div>
+                  </div>
+                  <!-- /.col-lg-4 -->
+                  <div class="col-sm-6 col-md-6 col-lg-6">
+                    <div class="form-group form-group-date">
+                      <i class="icon-clock form-group-icon"></i>
+                      <input type="time" class="form-control" id="contact-time" name="contact-time" required />
+                    </div>
+                  </div>
+                  <!-- /.col-lg-4 -->
+                  <div class="col-12">
+                    <button type="submit" class="btn btn__secondary btn__rounded btn__block btn__xhight mt-10">
+                      <span>Prendre rendez-vous</span>
+                      <i class="icon-arrow-right"></i>
+                    </button>
+                    <div class="contact-result"></div>
+                  </div>
+                  <!-- /.col-lg-12 -->
                 </div>
-                <!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">30 Juillet 2024</span>
-                  <a class="post__meta-author" href="#">Pr KOUAMÉ Kanga</a>
+                <!-- /.row -->
+              </form>
+              <div
+                class="contact-panel__info d-flex flex-column justify-content-between bg-overlay bg-overlay-primary-gradient">
+                <div class="bg-img"><img src="assets/images/banners/1.jpg" alt="banner"></div>
+                <div>
+                  <h4 class="contact-panel__title color-white">Prendre rendez-vous</h4>
+                  <p class="contact-panel__desc font-weight-bold color-white mb-30">Lorem ipsum dolor sit amet,
+                    consectetur adipiscing elit. In consequat suscipit lorem a mollis. Phasellus
+                    pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis ultrices purus.
+                  </p>
                 </div>
-                <h4 class="post__title">
-                  <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                </h4>
-
-                <p class="post__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat suscipit lorem a mollis.
-                  Phasellus pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis
-                  ultrices purus.
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>La suite...</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
+                <div>
+                  <ul class="contact__list list-unstyled mb-30">
+                    <li>
+                      <i class="icon-phone"></i><a href="tel:+5565454117">Numéro d'urgence: +225 0101010101</a>
+                    </li>
+                    <li>
+                      <i class="icon-location"></i><a href="#">Côte d'Ivoire, Abidjan</a>
+                    </li>
+                  </ul>
+                  <a href="#" class="btn btn__white btn__rounded btn__outlined">Contactez-nous</a>
+                </div>
               </div>
-              <!-- /.post__body -->
             </div>
-            <!-- /.post-item -->
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" />
-                </a>
-              </div>
-              <!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat bg-transparent">
-                </div>
-                <!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">30 Juillet 2024</span>
-                  <a class="post__meta-author" href="#">Pr KOUAMÉ Kanga</a>
-                </div>
-                <h4 class="post__title">
-                  <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                </h4>
-
-                <p class="post__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat suscipit lorem a mollis.
-                  Phasellus pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis
-                  ultrices purus.
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>La suite...</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div>
-              <!-- /.post__body -->
-            </div>
-            <!-- /.post-item -->
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" />
-                </a>
-              </div>
-              <!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat bg-transparent">
-                </div>
-                <!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">30 Juillet 2024</span>
-                  <a class="post__meta-author" href="#">Pr KOUAMÉ Kanga</a>
-                </div>
-                <h4 class="post__title">
-                  <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                </h4>
-
-                <p class="post__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat suscipit lorem a mollis.
-                  Phasellus pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis
-                  ultrices purus.
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>La suite...</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div>
-              <!-- /.post__body -->
-            </div>
-            <!-- /.post-item -->
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" />
-                </a>
-              </div>
-              <!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat bg-transparent">
-                </div>
-                <!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">30 Juillet 2024</span>
-                  <a class="post__meta-author" href="#">Pr KOUAMÉ Kanga</a>
-                </div>
-                <h4 class="post__title">
-                  <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                </h4>
-
-                <p class="post__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat suscipit lorem a mollis.
-                  Phasellus pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis
-                  ultrices purus.
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>La suite...</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div>
-              <!-- /.post__body -->
-            </div>
-            <!-- /.post-item -->
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" />
-                </a>
-              </div>
-              <!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat bg-transparent">
-                </div>
-                <!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">30 Juillet 2024</span>
-                  <a class="post__meta-author" href="#">Pr KOUAMÉ Kanga</a>
-                </div>
-                <h4 class="post__title">
-                  <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                </h4>
-
-                <p class="post__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat suscipit lorem a mollis.
-                  Phasellus pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis
-                  ultrices purus.
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>La suite...</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div>
-              <!-- /.post__body -->
-            </div>
-            <!-- /.post-item -->
-          </div>
-          <div class="col-sm-12 col-md-6 col-lg-4">
-            <div class="post-item">
-              <div class="post__img">
-                <a href="blog-single-post.html">
-                  <img src="assets/images/blog/grid/1.jpg" alt="post image" loading="lazy" />
-                </a>
-              </div>
-              <!-- /.post__img -->
-              <div class="post__body">
-                <div class="post__meta-cat bg-transparent">
-                </div>
-                <!-- /.blog-meta-cat -->
-                <div class="post__meta d-flex">
-                  <span class="post__meta-date">30 Juillet 2024</span>
-                  <a class="post__meta-author" href="#">Pr KOUAMÉ Kanga</a>
-                </div>
-                <h4 class="post__title">
-                  <a href="#">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</a>
-                </h4>
-
-                <p class="post__desc">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. In consequat suscipit lorem a mollis.
-                  Phasellus pellentesque nec nibh nec sodales. In vel vehicula diam, a faucibus risus. Cras quis
-                  ultrices purus.
-                </p>
-                <a href="blog-single-post.html" class="btn btn__secondary btn__link btn__rounded">
-                  <span>La suite...</span>
-                  <i class="icon-arrow-right"></i>
-                </a>
-              </div>
-              <!-- /.post__body -->
-            </div>
-            <!-- /.post-item -->
-          </div>
-        </div><!-- /.row -->
-        <div class="row">
-          <div class="col-12 text-center">
-            <nav class="pagination-area">
-              <ul class="pagination justify-content-center">
-                <li><a class="current" href="#">1</a></li>
-                <li><a href="#">2</a></li>
-                <li><a href="#"><i class="icon-arrow-right"></i></a></li>
-              </ul>
-            </nav><!-- .pagination-area -->
-          </div><!-- /.col-12 -->
+          </div><!-- /.col-lg-6 -->
         </div><!-- /.row -->
       </div><!-- /.container -->
-    </section><!-- /.blog Grid -->
+    </section><!-- /.contact layout 2 -->
+
 
     <!-- ========================
       Footer
