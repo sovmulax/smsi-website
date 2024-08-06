@@ -77,7 +77,7 @@
             <!-- /.header-top -->
             <nav class="navbar navbar-expand-lg sticky-navbar">
                 <div class="container-fluid">
-                    <a class="navbar-brand" href="index.html">
+                    <a class="navbar-brand" href="{{ route('index') }}">
                         <img src="assets/images/logo/logo.png" class="logo-light" alt="logo" />
                         <img src="assets/images/logo/logo.png" class="logo-dark" alt="logo" />
                     </a>
@@ -87,11 +87,11 @@
                     <div class="collapse navbar-collapse" id="mainNavigation">
                         <ul class="navbar-nav ml-auto">
                             <li class="nav__item">
-                                <a href="index.html" class="nav__item-link">Accueil</a>
+                                <a href="{{ route('index') }}" class="nav__item-link">Accueil</a>
                             </li>
                             <!-- /.nav-item -->
                             <li class="nav__item">
-                                <a href="about-us.html" class="nav__item-link">À Propos</a>
+                                <a href="{{ route('presentation') }}" class="nav__item-link">À Propos</a>
                             </li>
                             <!-- /.nav-item -->
                             <li class="nav__item has-dropdown">
@@ -115,11 +115,11 @@
                             </li>
                             <!-- /.nav-item -->
                             <li class="nav__item">
-                                <a href="blog.html" class="nav__item-link">Blog</a>
+                                <a href="{{ route('blog') }}" class="nav__item-link">Blog</a>
                             </li>
                             <!-- /.nav-item -->
                             <li class="nav__item">
-                                <a href="contact-us.html" class="nav__item-link">Contacts</a>
+                                <a href="{{ route('contacts') }}" class="nav__item-link">Contacts</a>
                             </li>
                             <!-- /.nav-item -->
                         </ul>
@@ -130,7 +130,7 @@
                     </div>
                     <!-- /.navbar-collapse -->
                     <div class="d-none d-xl-flex align-items-center position-relative ml-30">
-                        <a href="appointment.html" class="btn btn__primary btn__rounded ml-30">
+                        <a href="{{ route('meet') }}" class="btn btn__primary btn__rounded ml-30">
                             <i class="icon-calendar"></i>
                             <span>Rendez-Vous</span>
                         </a>
@@ -183,10 +183,10 @@
                                 <h6 class="footer-widget__title">Liens</h6>
                                 <nav>
                                     <ul class="list-unstyled">
-                                        <li><a href="#">À Propos</a></li>
-                                        <li><a href="#">Nos projets</a></li>
-                                        <li><a href="#">Blog</a></li>
-                                        <li><a href="#">Contacts</a></li>
+                                        <li><a href="{{ route('presentation') }}">À Propos</a></li>
+                                        <li><a href="{{ route('blog') }}">Nos projets</a></li>
+                                        <li><a href="{{ route('blog') }}">Blog</a></li>
+                                        <li><a href="{{ route('contacts') }}">Contacts</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -209,7 +209,7 @@
                                     </li>
                                 </ul>
                                 <div class="d-flex align-items-center">
-                                    <a href="contact-us.html" class="btn btn__primary btn__link mr-30">
+                                    <a href="{{ route('contacts') }}" class="btn btn__primary btn__link mr-30">
                                         <i class="icon-arrow-right"></i>
                                         <span>Contacts</span>
                                     </a>
